@@ -1,0 +1,15 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /PostManager
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
+
+management:
+  endpoints:
+    enabled-by-default: false
+  endpoint:
+    health:
+      enabled: true
